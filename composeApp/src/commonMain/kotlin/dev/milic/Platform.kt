@@ -1,7 +1,11 @@
 package dev.milic
 
-interface Platform {
-    val name: String
+
+enum class Platform {
+    Android,
+    iOS,
+    Web,
+    Desktop
 }
 
 expect fun getPlatform(): Platform
