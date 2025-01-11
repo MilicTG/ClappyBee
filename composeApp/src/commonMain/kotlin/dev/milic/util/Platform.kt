@@ -1,4 +1,4 @@
-package dev.milic
+package dev.milic.util
 
 
 enum class Platform {
